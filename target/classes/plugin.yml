@@ -1,0 +1,12 @@
+name: Review
+version: '1.0-SNAPSHOT'
+main: review.review.Review
+authors: [ ZeyNet ]
+api-version: 1.18
+commands:
+  review:
+    aliases: [rv, feedback]
+    description: 'Use: /review or /rv <message>'
+  reviewreload:
+    aliases: [rvreload]
+    description: 'Reload config.yml'
